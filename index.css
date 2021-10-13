@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
 
 *{
     margin: 0;
@@ -19,10 +19,11 @@ body{
     color: rgba(0, 0, 0, 0.637);
 }
   /* Time-Date Section */
-/* .container {
+.container {
     padding: 20px 70px;
-    color: rgba(239, 239, 239, 0.783); */
-/* }
+    color: rgba(239, 239, 239, 0.783);
+    /* color: rgba(0, 0, 0, 0.815); */
+}
 
 .current-info{
     display: flex;
@@ -46,7 +47,7 @@ body{
     font-size: 30px;
 }
   /* Location Section */
-/* .location-container{
+.location-container{
     text-align: end;
 }
 
@@ -57,14 +58,14 @@ font-weight: 100;
 
 .location-container .country{
     font-size: 12px;
-    font-weight: 700; 
-} */
+    font-weight: 700;
+}
   /* Weather Info Section */
-/* .current-info .others{
+.current-info .others{
     display: flex;
     flex-direction: column;
     background: rgba(24, 24, 27, 0.338);
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
     border: 1px solid rgba(245, 245, 245, 0.557);
@@ -74,10 +75,10 @@ font-weight: 100;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
+}
 
   /* Currunt All Day Weather Section */
-/* .future-forecast{
+.future-forecast{
     background: rgba(24, 24, 27, 0.338);
     padding: 5px 10px;
     display: flex;
@@ -92,9 +93,9 @@ font-weight: 100;
 .future-forecast .today{
     display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     /* position: relative; */
-/* }
+}
 .future-forecast .today .day{
     background: #3c3c44;
     padding: 5px 15px;
@@ -150,13 +151,11 @@ font-weight: 100;
     padding:50px 0;
     padding-right: 20px;
     border-radius: 10px;
-} */
+}
 
 
-
-  /* Responsive section */
-  /*  
-@media only screen and (max-width:1000px){
+  /* Responsive section */  
+@media only screen and (max-width:770px){
     .future-forecast{
         justify-content: start;
         align-items: none;
@@ -232,4 +231,3 @@ font-weight: 100;
     }
     
 }
- */
